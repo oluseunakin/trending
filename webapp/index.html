@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Trending</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="folder/script.js"></script>
+        <link rel="stylesheet" href="folder/css.css">
+    </head>
+    <body onload="loads()" class="index">
+        <header>
+            <h1>What's Trending?</h1>
+            <form id="lform" method="post" action="/Trending/welcome/login" enctype="application/x-www-form-urlencoded">
+                <span id="a">Already have an Account?</span>
+                <input name ="u" type="text" placeholder="Login Username" size="30" required="required" id="lname">
+                <input name="p" onblur="login()" type="password" required="required" placeholder="Login Password" size="30" id="lpword">
+                <input value="Log In" type="submit">
+                <span id="login"></span>
+            </form>
+        </header>
+        <div class="main">
+            <div id="sform">
+                <p>Share your View<br/> Lend your Voice<br/> Join the Debate<br/> <strong>Create a new Topic<br/>Join an existing Topic </strong></p>
+                <form  id="sf" method="post" action="/Trending/welcome/s" enctype="application/x-www-form-urlencoded">
+                    <span id="n">New on <strong>TRENDING</strong>? Sign Up below:</span>
+                    <input name="u" type="text" autofocus="autofocus" placeholder="SignUp Name" size="30" required="required" id="sname">
+                    <span id="serror" class="hide"></span>
+                    <input name="p" type="password" required="required" size="30" placeholder="SignUp Password" id="spword" onfocus="check()">
+                    <input type="submit" value="Sign Up" id="sup"/>
+                </form>
+        </div>
+        </div>
+        <footer class="footer">
+            <ul id="ul"> 
+                
+            </ul>    
+        </footer>
+    </body>
+</html>
+
+

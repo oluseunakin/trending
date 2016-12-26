@@ -1,0 +1,598 @@
+#mdiv{
+    margin: 2%;
+}
+#opdiv{
+    margin-top: 3%;
+}
+#h{
+    font-size: 3em;
+    font-family: sans-serif;
+    margin-left: -20px;
+    margin-bottom: 30px;
+}
+ol { 
+    padding-left: 1.4em;
+    list-style: none;
+}
+ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+/* end reset browser styles */
+#sup{
+    display: block;
+    background-color: gold;
+    color: black;
+}
+.edit,.us,.ch{
+    padding: 3px;
+    margin-right: 5px;
+}
+.load{
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+.fig{
+    margin: 10px ;
+    width: auto;
+}
+.figcc{
+    margin-top: -40px;
+    padding-left: 20px;
+    color: greenyellow;
+    font-size: 1.5em;
+}
+.dcol{
+    margin-bottom: 5px;
+}.dcol span{
+    margin-right: 8px;
+}
+.ifr{
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    left: 10%;right: 10%;bottom: 10%;
+    z-index: 1000000;
+    overflow: auto;
+    background-color: black;
+}
+.ifr div{
+    display: inline-block;
+    margin: 10px;
+}
+.ifr input{
+    display: block;
+    margin: 10px;
+}
+.ifr button{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    display: block;
+}
+.index header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.index h1{
+    text-transform: capitalize;
+    font: bold 3em "Bookman Old Style";
+    padding-left: 5%;
+    color: #dfad4f;
+    float: left;
+    width: auto;
+}
+.disc h1{
+    text-transform: capitalize;
+    font: 3em sans-serif bold;
+    display: inline-block;
+    padding-left: 10px;
+     color: #dfad4f;
+}
+.disc ul{
+    padding-left: 20px;
+}
+.h3{
+    text-indent: 20px;
+    margin-bottom: 20px;
+}
+.search{
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 100px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 10px;
+}
+#sea,.out{
+    margin-top: 5px;
+}
+.abc{
+    font-weight: bold;
+    font-size: 1em;
+    background-color: gold;
+    margin-left: 5%;
+    margin-right: 10px;
+}
+.unsub{
+    font-weight: bold;
+    font-size: 1em;
+    background-color: gold;
+    text-transform: uppercase;
+}
+.index{
+    background-color:#f5f7f8 !important
+}
+.main{
+    width: 80%;
+    position: absolute;
+    top: 12%;
+    margin: 0 10%;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 3px;
+    font-size: 1.2em;
+}
+#sform p{
+    color: #dfad4f;
+    font-size: 3em;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+#sform #sf{
+    margin-top: 5%;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+#sform button,#lform button{
+    background-color: gold;
+}
+.spre{
+    display: block;
+    margin: 10px 0;
+}
+#sform #n{
+    display: block;
+    margin-bottom: 5px;
+    font: 2em bold fantasy;
+}
+.serror{
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+}
+#sform input{
+    font-size: 2em;
+    margin: 20px 0px;
+    display: block;
+}
+#sform button{
+    display: block;
+    margin-top: 15px;
+    font-size: 2em;
+}
+#lform{
+    float: right;
+    width: auto;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+#lform #a{
+    display: block;
+    margin-bottom: 3px;
+}
+.br{
+    clear: both;
+}
+.btt{
+    position: absolute;
+    right: 20px;
+    width: 2%;
+}
+.hide{
+    display: none;
+}
+#disc,#desc{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.table{
+    display: block;
+}
+.table td{
+    width:25%;
+    padding-right: 10px;
+}
+.datdiv{
+    margin: 30px 0;
+}
+.tarea{
+    margin: 10px;
+}
+.tarea input{
+    margin-left: 10px;
+}
+.tarea .bt{
+    display: block;
+    font-size: 1em;
+    margin-top: 1%;
+    font-family: sans-serif;
+}
+button:active{
+    color: gold;
+}
+.opclass{
+    padding: 10px;
+    margin-bottom: 1%;
+}
+.opclass p{
+    text-indent: 30px;
+    font-size: 1em;
+    width: auto;
+    display: inline;
+    margin-right: 20px;
+}
+.editop{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+}
+.ot{
+    width: auto;
+    margin-top: 20px;
+}
+#dd{
+    width: auto;
+}
+tr{
+   margin-bottom: 0px; 
+}
+.addCom input{
+    margin-left: 5px;
+}
+.addCom button{
+    font-size: 1em;
+    display: block;
+}
+.click{
+    font-size: 1em;
+    color: blueviolet;
+}
+.image{
+    width:100%;
+}
+.show{
+    position: static;
+    margin-bottom: 20px;
+}
+.ms{
+    padding-left: 2%;
+    padding-right: 5px;
+    font-size: 0.9em;
+    top: 12%;
+    position: absolute;
+    right: 1%;
+    left: 60%;
+    z-index: 500000;
+    height: 400px;
+    overflow: auto;
+    color: white;
+    box-shadow: 0 0 0 5px rgba(255,255,255,0.5);
+}
+.ms li{
+    margin: 10px 0;
+}
+.clos{
+    width: 100%;
+    margin: 5px 0;
+    margin-bottom: 30px;
+    border-top: 5px solid black;
+    border-bottom: 1px solid black;
+}
+.subBt{
+    float: right;
+    width: 20%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 3px;
+}
+.preid{
+    text-align: right;
+    float: left;
+    width: 75%;
+}
+.chat,.hats{  
+    margin-left: 7px;
+    z-index: 7000000;
+    overflow: auto;
+    width: auto;
+    position: absolute;
+    display: inline-block;
+    padding: 2px 5px;
+}
+.chat div{
+    margin-bottom: 2px;
+}
+.hats button{
+    display: block;
+    margin-bottom: 3px;
+    background-color: red;
+    float: right;
+}
+.hats textarea{
+    width: 100%;
+    display: block;
+}
+.hats input{
+    display: block;
+    float: right;
+}
+.showdiv{
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    z-index: 90000000;
+    width: auto;
+    background-color:#4d636f;
+    padding: 5px;
+}
+.showdiv button{
+    margin-left: 70%;
+    display: block;
+}
+.ct{
+    position: relative;
+}
+.hat{
+    bottom: 10px;
+    right: 20px;
+    width: 30%;
+    z-index: 700000;
+    position: absolute;
+    border: 2px solid gold;
+}
+.closebtn{
+    display: block;
+    color: black;
+    font-weight: bold;
+    width: auto;
+    background-color: red;
+    float: right;
+}
+.enter{
+    width: 100%;
+    margin-top: 2px;
+    display: block;
+}
+.chatspace{
+    background-color: white;
+    color: black;
+    overflow: auto;
+    width: 100%;
+}
+.hat input[type=submit]{
+    float: right;
+}
+.nam{
+    color: red;
+    text-transform: uppercase;
+    padding-left: 1%;
+}
+.nnam{
+    color: green;
+    text-transform: uppercase;
+}
+.nm{
+    right: 1%;
+    position: absolute;
+}
+.ms textarea{
+    margin-left: 5px;
+}
+#onball{
+    display: inline;
+    margin-left: 10px;
+    color: greenyellow;
+}
+#offball{
+    display: inline;
+    margin-left: 10px;
+    color: gray;
+}
+.ms pre{
+    display: block;
+}
+.ddiv{
+    margin: 5px;
+}
+.ddiv span{
+    margin-right: 10px;
+}
+.m{
+    width: 40%;
+}
+.dd{
+    margin-bottom: 3px;
+}
+.dd span{
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+.dd p{
+    padding-left: 7px;
+    margin: 2px;
+}
+.dd:hover{
+    cursor: pointer;
+}
+.unread{
+    background-color: rgba(102,170,78,.7);
+}
+#gmsg{
+    position: relative;
+    font-weight: bold;
+    color: black;
+    top: -3px;
+    left: -6px;
+    right: 10px;
+}
+#md{
+    margin: 10px;
+    margin-left: 12%;
+    font-size: 1em;
+}
+#sugdiv{
+    margin-top: 40px;
+    font-weight: bold;
+}
+#p{
+    text-decoration: underline;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    display: block;
+}
+.sdiv{
+    margin-bottom: 2px;
+}
+#sdiv span{
+    margin-right: 7px;
+    text-transform: uppercase;
+}
+@media (max-width:768px){
+    .index{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .index header{
+        position: static;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .main{
+        width: 99%;
+        margin-left: 2px;
+        padding: 0;
+        position: static;
+    }
+    .footer{
+        position: static;
+    }
+    .footer ul{
+        padding: 0;
+        font-size: 1em;
+        
+    }
+    .index h1{
+        margin: 0;
+        padding: 0;
+        font-size: 2.5em;
+        padding-left: 3px;
+        display: block; 
+        float: none;
+    }
+    #lform{
+        display: block;
+        float: none;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    #login{
+        font-size: 1em;
+        display: block;
+        margin-top: 2px;
+    }
+    #lname,#lpword{
+        margin-top: 5px; 
+        width: 100%;
+        display: block;
+    }
+    #lform input[type='submit']{
+        width: auto;
+        margin-top: 5px;
+    }
+    #sform p{
+        float: none;
+        font-size: 2.5em;
+        width: 100%;
+    }
+    #sform #sf{
+        float: none;               
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 5px;
+    }
+    #sform input{
+        width: 100%;
+        margin: 5px 0; 
+        font-size: 1em;
+    }
+    #sform #sup{
+        width: auto;
+    }
+    #sform #n{
+        margin: 0;
+        font-size: 1em;
+    }
+    .serror{
+        font-size: 1em;
+        display: block;
+    }
+    .search{
+        width: 70%;
+        font-size: 1em;
+    }
+    #sea{
+        width: auto;
+    }
+    #out{
+        display: block;
+    }
+    .ms{
+        position: absolute;
+        display: block;
+        right: 10px;
+        left: 10px;
+        top: 20%;
+    }
+    .li{
+        margin: 0;
+        margin-bottom: 20px;
+        width: auto;
+    }
+    .li h2{
+        display: block;
+        font-size: 1.5em;
+        margin-bottom: 5px;
+    }
+    .dname{
+        margin: 0;
+        padding: 2px;
+        display: block;
+        width: auto;
+    }
+    .tarea textarea{position: static;margin-bottom: 3px;
+    }
+    .tarea input{margin-left:0;display: block;
+    }
+    .tarea .bt{display: block;
+        margin-left: 0;
+    }
+}
