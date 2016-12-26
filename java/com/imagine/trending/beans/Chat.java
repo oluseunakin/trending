@@ -41,6 +41,7 @@ public class Chat{
         try {
             ic = new InitialContext();
             t = (Trending)ic.lookup("java:module/Trending");
+         
             s.getUserProperties().put("name", n);
             ss.add(s);
         } catch (NamingException ex) {
